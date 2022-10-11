@@ -23,7 +23,9 @@ namespace ManagePropertyApp
         BusinessLogicLayer bll = new BusinessLogicLayer();
         private void btnMenu_Click(object sender, EventArgs e)
         {
+            string UserLabel = "Admin";
             Form1 form1 = new Form1();
+            form1.User = UserLabel;
             this.Hide();
             form1.Show();
         }

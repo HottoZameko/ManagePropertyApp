@@ -32,7 +32,10 @@ namespace ManagePropertyApp
         }
 
         private void btnMenu_Click(object sender, EventArgs e)
-        {  Form1 form = new Form1();
+        {
+            string UserLabel = "Admin";
+            Form1 form = new Form1();
+            form.User = UserLabel;
             this.Hide();
             form.Show();
           

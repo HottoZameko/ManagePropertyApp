@@ -22,7 +22,9 @@ namespace ManagePropertyApp
 
         private void btnMenu_Click(object sender, EventArgs e)
         {
+            string UserLabel = "Agent";
             Form1 form = new Form1();
+            form.User = UserLabel;
             this.Hide();
             form.Show();
         }

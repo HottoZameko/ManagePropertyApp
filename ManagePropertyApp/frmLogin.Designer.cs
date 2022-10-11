@@ -34,14 +34,14 @@ namespace ManagePropertyApp
             this.panel2 = new System.Windows.Forms.Panel();
             this.label2 = new System.Windows.Forms.Label();
             this.panel3 = new System.Windows.Forms.Panel();
-            this.label5 = new System.Windows.Forms.Label();
-            this.txtRole = new System.Windows.Forms.TextBox();
             this.lblInvalid = new System.Windows.Forms.Label();
             this.txtPassword = new System.Windows.Forms.TextBox();
             this.txtEmail = new System.Windows.Forms.TextBox();
             this.btnLogin = new System.Windows.Forms.Button();
             this.label4 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
+            this.label5 = new System.Windows.Forms.Label();
+            this.txtRole = new System.Windows.Forms.TextBox();
             this.panel1.SuspendLayout();
             this.panel2.SuspendLayout();
             this.panel3.SuspendLayout();
@@ -110,24 +110,6 @@ namespace ManagePropertyApp
             this.panel3.Size = new System.Drawing.Size(792, 193);
             this.panel3.TabIndex = 2;
             // 
-            // label5
-            // 
-            this.label5.AutoSize = true;
-            this.label5.Location = new System.Drawing.Point(160, 10);
-            this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(54, 24);
-            this.label5.TabIndex = 7;
-            this.label5.Text = "Role:";
-            // 
-            // txtRole
-            // 
-            this.txtRole.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.txtRole.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtRole.Location = new System.Drawing.Point(294, 10);
-            this.txtRole.Name = "txtRole";
-            this.txtRole.Size = new System.Drawing.Size(318, 24);
-            this.txtRole.TabIndex = 6;
-            // 
             // lblInvalid
             // 
             this.lblInvalid.AutoSize = true;
@@ -187,6 +169,24 @@ namespace ManagePropertyApp
             this.label3.TabIndex = 0;
             this.label3.Text = "Email:";
             // 
+            // label5
+            // 
+            this.label5.AutoSize = true;
+            this.label5.Location = new System.Drawing.Point(160, 10);
+            this.label5.Name = "label5";
+            this.label5.Size = new System.Drawing.Size(54, 24);
+            this.label5.TabIndex = 7;
+            this.label5.Text = "Role:";
+            // 
+            // txtRole
+            // 
+            this.txtRole.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.txtRole.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtRole.Location = new System.Drawing.Point(294, 10);
+            this.txtRole.Name = "txtRole";
+            this.txtRole.Size = new System.Drawing.Size(318, 24);
+            this.txtRole.TabIndex = 6;
+            // 
             // frmLogin
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -223,7 +223,7 @@ namespace ManagePropertyApp
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Label lblInvalid;
-        private System.Windows.Forms.TextBox txtRole;
         private System.Windows.Forms.Label label5;
+        private System.Windows.Forms.TextBox txtRole;
     }
 }

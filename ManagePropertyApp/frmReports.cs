@@ -29,8 +29,10 @@ namespace ManagePropertyApp
 
         private void btnHome_Click(object sender, EventArgs e)
         {
+            string UserLabel = "Admin";
             this.Hide();
             Form1 frm = new Form1();
+            frm.User = UserLabel;
             frm.Show();
         }
 
